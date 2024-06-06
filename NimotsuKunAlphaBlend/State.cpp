@@ -104,8 +104,8 @@ void State::update( char input ){
 	int dx = 0;
 	int dy = 0;
 	switch ( input ){
-		case 'a': dx = -1; switchPlayerImage = true; break; //左//
-		case 'd': dx = 1; switchPlayerImage = false; break; //右//
+		case 'a': dx = -1; switchPlayerImage = true; break; //左 //
+		case 'd': dx = 1; switchPlayerImage = false; break; //右 //
 		case 'w': dy = -1; break; //上。Yは下がプラス
 		case 's': dy = 1; break; //下。
 	}
